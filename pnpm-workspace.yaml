@@ -1,5 +1,6 @@
 packages:
   - .
+allowBuilds:
+  '@parcel/watcher': false
+  sharp: false
 minimumReleaseAge: 2880
-onlyBuiltDependencies:
-  - sharp
